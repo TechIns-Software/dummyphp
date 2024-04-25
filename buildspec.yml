@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Emulating Build"
+
+artifacts:
+  files:
+    - index.php
+    - appspec.yml
+    - deploy/**/*
