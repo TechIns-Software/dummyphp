@@ -16,5 +16,5 @@ hooks:
     - location: deploy/install_app.sh
       runas: root
   ApplicationStart:
-    - location: deploy/production/application-start.sh
+    - location: deploy/application-start.sh
       runas: root
