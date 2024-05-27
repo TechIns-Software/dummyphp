@@ -11,3 +11,9 @@ artifacts:
     - appspec.yml
     - deploy/**/*
     - default
+
+secondary_artifacts:
+  js:
+    files:
+      - js/*
+    name: js
