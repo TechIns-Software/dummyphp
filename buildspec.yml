@@ -6,12 +6,21 @@ phases:
       - echo "Emulating Build"
 
 artifacts:
+  
   files:
     - app/**/*
     - appspec.yml
     - deploy/**/*
     - default
+
   secondary-artifacts:
     js:
       files:
         - js/*
+
+    build-output:
+      files:    
+        - app/**/*
+        - appspec.yml
+        - deploy/**/*
+        - default
