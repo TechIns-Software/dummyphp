@@ -11,7 +11,7 @@ artifacts:
     - appspec.yml
     - deploy/**/*
     - default
-  secondary_artifacts:
+  secondary-artifacts:
     js:
       files:
         - js/*
